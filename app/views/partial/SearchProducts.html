@@ -1,0 +1,74 @@
+<!-- Search form -->
+<div class="col-sm-12 col-xs-12 col-md-4">
+    <div class="row">
+        <div class="col-md-12 col-sm-6 col-xs-12">
+            <label class="control-label">Product</label><br />
+            <div style="padding-bottom: 0.3em;">
+                <INPUT TYPE="TEXT" class="form-control" placeholder="Product name"
+                       ng-bing="searchString">
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-6 col-xs-12">
+            <div class="form-group">
+                <SELECT class="form-control">
+                    <OPTION>Category - 1</OPTION>
+                    <OPTION>Category - 2</OPTION>
+                    <OPTION>Category - 3</OPTION>
+                </SELECT>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 col-md-4 col-xs-12" ng-controller="RBoundsCtrl">
+    <!-- For debug
+      div style="border: 1px solid #F0F">
+        {{ highBound | currency }}
+    </div -->
+    <label class="control-label">Current Price</label>
+    <div style="padding-bottom: 0.3em;">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-xs-6">
+          <INPUT style="width: 70px;" TYPE="number" class="form-control"
+                ng-model="lowBound" id="price_LeftBound">
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-6">
+                <INPUT style="width: 70px;" class="form-control" TYPE="number"
+                       ng-model="highBound" id="price_RightBound">
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-xs-12">
+      <div class="form-group">
+        <input auction-price-slider id="price_range" type="text" style='width:100%' value=''
+             data-clider-min="500" data-slider-max="1500"
+             data-slider-step="1"  data-slider-value='[1100,1400]'>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-4 col-xs-12" style="padding-bottom: 0.5em;">
+    <label for="DPck">Max Auction Close Date</label>
+    <div class="input-group date" auction-datepicker style="padding-bottom: 0.3em;" >
+      <input  class="form-control" size="16" type="text" id="DPck">
+        <span class="input-group-addon">
+          <span class="glyphicon glyphicon-calendar" id="DPct"></span>
+        </span>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="form-group">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <label class="control-label">Number of Bids</label>&nbsp;
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <SELECT class="form-control">
+                    <OPTION>1</OPTION>
+                    <OPTION>2</OPTION>
+                    <OPTION>3</OPTION>
+                </SELECT>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <button class="btn center-block btn-block btn-wide" style="width: 150px" type="button">Find now</button>
+</div>

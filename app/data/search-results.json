@@ -1,0 +1,47 @@
+{
+    "heading":"Search results",
+    "items": [
+    {
+        "id": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "price": "123",
+        "thumb": "images/01-1.jpg",
+
+        "timeleft": "2",
+        "title": "Unit 1",
+        "url": "",
+        "watchers": "12",
+
+        "thumbs": ["images/item-1.jpg", "images/item-2.jpg", "images/item-3.jpg", "images/item-4.jpg", "images/item-5.jpg", "images/item-6.jpg", "images/item-7.jpg", "images/item-8.jpg", "images/item-9.jpg"],
+        "till": "Today 19.50",
+        "bids" : 3,
+        "seller": "StarMotors (135) 100% Positive feedback"
+    },
+    {
+        "id": 2,
+        "title": "Unit 2",
+        "thumb": "images/01-2.jpg",
+        "thumbs": ["images/item-1.jpg", "images/item-2.jpg", "images/item-3.jpg", "images/item-4.jpg", "images/item-5.jpg", "images/item-6.jpg", "images/item-7.jpg", "images/item-8.jpg", "images/item-9.jpg"],
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "3",
+        "bids" : 12,
+        "seller": "StarMotors (135) 100% Positive feedback",
+        "price": "43"
+    },
+    {
+        "id": 3,
+        "title": "Unit 3",
+        "thumb": "images/01-3.jpg",
+        "thumbs": ["images/item-1.jpg", "images/item-2.jpg", "images/item-3.jpg", "images/item-4.jpg", "images/item-5.jpg", "images/item-6.jpg", "images/item-7.jpg", "images/item-8.jpg", "images/item-9.jpg"],
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "bids" : 7,
+        "seller": "StarMotors (135) 100% Positive feedback",
+        "price": "39"
+    }
+]
+}
